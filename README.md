@@ -10,4 +10,4 @@ The website features a background video, custom CSS buttons and a custom CSS cov
 - Custom search tags (keywords).
 
 ## 👀 Preview
-   ![Web-Preview](https://i.imgur.com/9xIMhRs.png)
+   ![Web-Preview](https://i.imgur.com/PrQN3HP.png)
