@@ -1,0 +1,333 @@
+body,html
+{
+	padding:0;
+	margin:0;
+	cursor:url(../img/cursor.png),default
+}
+	body
+{
+	background-color:#000
+}
+	#videobackground
+{
+	position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+	height:auto;
+	z-index:-1
+}
+.container
+{
+	text-align:center
+}
+.logo-spain
+{
+	margin-top:230px;
+	width:512px;
+	opacity: .5
+}
+.logo-spain:hover
+{
+	opacity:1;
+	cursor:url(../img/cursorlink.png),default
+}
+.buttongroup
+{
+	text-align:center
+}
+.button
+{
+	position:relative;
+	font-family:open sans,Sans-serif;
+	line-height:1;
+	font-weight:800;
+	color:#fff;
+	border:2px solid rgba(241, 242, 250, .5);
+	border-radius:20px 5px;
+	padding:15px 30px;
+	margin:20px
+}
+.button:hover
+{
+	background:#fff;
+	cursor:url(../img/cursorlink.png),default
+}
+.bforo
+{
+	background:#000;
+	opacity:0.75
+}
+.bdisc
+{
+	background:#000;
+	opacity:0.75
+}
+.btwit
+{
+	background:#000;
+	opacity:0.75
+}
+.btwtc
+{
+	background:#000;
+	opacity:0.75
+}
+.binst
+{
+	background:#000;
+	opacity:0.75
+}
+.bforo:hover
+{
+	color:#000;
+	opacity:0.95
+}
+.bdisc:hover
+{
+	color:#000;
+	opacity:0.95
+}
+.btwit:hover
+{
+	color:#000;
+	opacity:0.95
+}
+.btwtc:hover
+{
+	color:#000;
+	opacity:0.95
+}
+.binst:hover
+{
+	color:#000;
+	opacity:0.95
+}
+.footer
+{
+	position:fixed;
+	bottom:0;
+	text-align:center;
+	width:100%;
+	font-size:smaller;
+	font-family:roboto,Sans-serif;
+	color:#b7b7b7;
+	background-color:#222;
+	height:100px;
+	font-size:10px;
+	text-transform:uppercase;
+	font-weight:500;
+	letter-spacing:1.6px
+}
+.footer span
+{
+	line-height:100px
+}
+	@media(max-width:512px)
+{
+.logo-spain
+{
+	width:auto
+}
+.logo-spain
+{
+	margin-top:15px
+}
+.button
+{
+	margin:7.5px
+}
+
+}
+@media(max-width:350px)
+{
+.logo-spain
+{
+	width:80%
+}
+
+}
+.cybr-btn {
+	z-index: 2;
+	--primary: rgba(255, 255, 255, 0);
+	--shadow-primary: rgba(255, 255, 255, 0);
+	--primary-hue: 80;
+	--primary-lightness: 50;
+	--color: hsl(0, 0%, 100%);
+	--font-size: 2vh;
+	--shadow-primary-hue: 180;
+	--label-size: 1vh;
+	--shadow-secondary-hue: 10;
+	--shadow-secondary: rgb(255, 153, 0);
+	--clip: polygon( 0 0, 100% 0, 100% 100%, 95% 100%, 95% 90%, 85% 90%, 85% 100%, 8% 100%, 0 70% );
+	--border: 0.37vh;
+	--shimmy-distance: 5;
+	--clip-one: polygon( 0 2%, 100% 2%, 100% 95%, 95% 95%, 95% 90%, 85% 90%, 85% 95%, 8% 95%, 0 70% );
+	--clip-two: polygon( 0 78%, 100% 78%, 100% 100%, 95% 100%, 95% 90%, 85% 90%, 85% 100%, 8% 100%, 0 78% );
+	--clip-three: polygon( 0 44%, 100% 44%, 100% 54%, 95% 54%, 95% 54%, 85% 54%, 85% 54%, 8% 54%, 0 54% );
+	--clip-four: polygon( 0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0 );
+	--clip-five: polygon( 0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0 );
+	--clip-six: polygon( 0 40%, 100% 40%, 100% 85%, 95% 85%, 95% 85%, 85% 85%, 85% 85%, 8% 85%, 0 70% );
+	--clip-seven: polygon( 0 63%, 100% 63%, 100% 80%, 95% 80%, 95% 80%, 85% 80%, 85% 80%, 8% 80%, 0 70% );
+	font-family: Cyber, sans-serif;
+	color: var(--color);
+	cursor: pointer;
+	background: transparent;
+	text-transform: uppercase;
+	font-size: var(--font-size);
+	outline: transparent;
+	letter-spacing: 0.01vh;
+	transform: skew(-7deg, 0deg);
+	box-shadow: 0px 2px 0px 3px rgba(255, 255, 255, 0.459);
+	position: relative;
+	font-weight: 700;
+	min-width: 100%;
+	 border-radius: 0px 0px 10px 10px;
+	 
+	height: 4.5vh;
+	transition: background 0.2s ease 0s;
+	border: 0.3vh solid rgba(255, 255, 255, 0.678);
+  }
+  .cybr-btn:focus {
+	background-color: rgba(255, 115, 0, 0);
+  }
+  .cybr-btn.active {
+	color: white;
+	background-color: rgb(0, 0, 0);
+  }
+  .cybr-btn.selected {
+	background-color: rgba(235, 235, 235, 0.88);
+	color: black;
+  }
+  .cybr-btn.conf {
+	position: absolute;
+	top: auto;
+	bottom: 0px;
+  }
+  .cybr-btn.notenabled {
+	opacity: 0.2;
+  }
+  .cybr-btn.disabled:focus {
+	background-color: rgb(168, 0, 0);
+  }
+  .cybr-btn.disabled {
+	color: rgba(255, 255, 255, 0.5);
+  }
+  .cybr-btn:hover {
+	--primary: hsl( var(--primary-hue), 85%, 100% );
+	color: black;
+  }
+  .cybr-btn:active {
+	--primary: hsl( var(--primary-hue), 85%, 100% );
+	color: black;
+  }
+  .cybr-btn::after, .cybr-btn::before {
+	content: "";
+	position: absolute;
+	inset: 0px;
+	clip-path: var(--clip);
+	z-index: -2;
+  }
+  .cybr-btn::before {
+	background: var(--shadow-primary);
+	transform: translate(var(--border), 0);
+  }
+  .cybr-btn::after {
+	background: var(--primary);
+  }
+  .cybr-btn__tag {
+	position: absolute;
+	padding: 0.092vh 0.37vh;
+	letter-spacing: 0.09vh;
+	line-height: 1;
+	bottom: -5%;
+	right: 5%;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	font-size: var(--label-size);
+  }
+  .cybr-btn__glitch {
+	position: absolute;
+	top: calc(var(--border) * -1);
+	left: calc(var(--border) * -1);
+	right: calc(var(--border) * -1);
+	bottom: calc(var(--border) * -1);
+	background: var(--shadow-primary);
+	text-shadow: 0.09vh 0.09vh var(--shadow-primary), -0.09vh -0.09vh var(--shadow-secondary);
+	clip-path: var(--clip);
+	animation: 2s ease 0s infinite normal none running glitch;
+	display: none;
+  }
+  .cybr-btn:hover .cybr-btn__glitch {
+	display: block;
+  }
+  .cybr-btn__glitch::before {
+	content: "";
+	position: absolute;
+	top: calc(var(--border) * 1);
+	right: calc(var(--border) * 1);
+	bottom: calc(var(--border) * 1);
+	left: calc(var(--border) * 1);
+	clip-path: var(--clip);
+	background: var(--primary);
+	z-index: -2;
+  }
+  @keyframes glitch {
+	0% {
+		clip-path: var(--clip-one);
+   }
+	2%, 8% {
+		clip-path: var(--clip-two);
+		transform: translate(calc(var(--shimmy-distance) * -1%), 0);
+   }
+	6% {
+		clip-path: var(--clip-two);
+		transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+   }
+	9% {
+		clip-path: var(--clip-two);
+		transform: translate(0px, 0px);
+   }
+	10% {
+		clip-path: var(--clip-three);
+		transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+   }
+	13% {
+		clip-path: var(--clip-three);
+		transform: translate(0px, 0px);
+   }
+	14%, 21% {
+		clip-path: var(--clip-four);
+		transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+   }
+	25% {
+		clip-path: var(--clip-five);
+		transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+   }
+	30% {
+		clip-path: var(--clip-five);
+		transform: translate(calc(var(--shimmy-distance) * -1%), 0);
+   }
+	35%, 45% {
+		clip-path: var(--clip-six);
+		transform: translate(calc(var(--shimmy-distance) * -1%));
+   }
+	40% {
+		clip-path: var(--clip-six);
+		transform: translate(calc(var(--shimmy-distance) * 1%));
+   }
+	50% {
+		clip-path: var(--clip-six);
+		transform: translate(0px, 0px);
+   }
+	55% {
+		clip-path: var(--clip-seven);
+		transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+   }
+	60% {
+		clip-path: var(--clip-seven);
+		transform: translate(0px, 0px);
+   }
+	31%, 61%, 100% {
+		clip-path: var(--clip-four);
+   }
+  }
